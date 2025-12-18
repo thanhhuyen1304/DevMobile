@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Đồ án chat app Flutter + Firebase">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="chat_app_final">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>chat_app_final</title>
+  <link rel="manifest" href="manifest.json">
+
+    <!-- Firebase SDKs - VERSION ỔN ĐỊNH CHO FLUTTER WEB 2025 -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-messaging-compat.js"></script>
+
+    <script>
+        // DÁN firebaseConfig CỦA BẠN VÀO ĐÂY (lấy từ Firebase Console > Project Settings > Your apps > Web app)
+        const firebaseConfig = {
+          apiKey: "AIzaSyDDdtP5JE4z6gGCqqR79_KeA-ne9cloGeo",
+          authDomain: "chatappfinal-620d3.firebaseapp.com",
+          projectId: "chatappfinal-620d3",
+          storageBucket: "chatappfinal-620d3.firebasestorage.app",
+          messagingSenderId: "713648515500",
+          appId: "1:713648515500:web:eb9168b0bb91ed53d2f209",
+          measurementId: "G-CWMR96TZVZ"
+        };
+
+        // Initialize Firebase (KHÔNG THÊM GÌ NỮA)
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
