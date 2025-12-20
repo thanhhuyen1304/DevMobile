@@ -1,7 +1,7 @@
 // lib/features/auth/presentation/pages/auth_page.dart
 import 'package:flutter/foundation.dart'; // Cho kDebugMode
 import 'package:flutter/material.dart';
-import '../../data/auth_service.dart';
+import '../../../data/auth_service.dart';
 import '../../../../home_page.dart'; // Import HomePage (nếu có)
 
 class AuthPage extends StatefulWidget {
